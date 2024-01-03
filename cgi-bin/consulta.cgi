@@ -42,21 +42,36 @@ print <<HTML;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 775px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            width: 1300px;
+            background-color: rgba(255, 146, 79, 0.94);
+            border: solid 5px rgba(255, 55, 0, 0.8);
         }
         p {
             font-size: 20px;
             margin: 5px 0;
         }
+        .titulo{
+            display: flex;
+            align-items: center;
+            border: solid 1px rgba(255, 55, 0, 0.8);
+        }
     </style>
 </head>
 <body>
     <section>
-        <h1>Resultados de la Consulta</h1>
-        <p>Nombre de la Universidad: $nombreUnivesidad</p>
-        <p>Periodo de Licenciamiento: $periodoLicenciamiento</p>
-        <p>Departamento Local: $departamentoLocal</p>
-        <p>Denominación del programa: $denominacionPrograma</p>
+        <div>
+            <div class = "titulo"><h1>Resultados de la Consulta</h1></div>
+            <p>Nombre de la Universidad: $nombreUnivesidad</p>
+            <p>Periodo de Licenciamiento: $periodoLicenciamiento</p>
+            <p>Departamento Local: $departamentoLocal</p>
+            <p>Denominación del programa: $denominacionPrograma</p>
+        </div>
     </section>
 </body>
 </html>
