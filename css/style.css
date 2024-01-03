@@ -1,5 +1,11 @@
+body{
+    margin: 0;
+}
 section{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 775px;
+    background-color: #b87d7d;
 }
