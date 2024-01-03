@@ -8,23 +8,19 @@
 </head>
 <body>
     <section>
-        <form action="cgi-bin/consulta.cgi">
+        <form action="cgi-bin/consulta.cgi" method="post">
             <h1> BUSQUEDA DE UNIVERSIDADES LICENCIADAS</h1>
             <h2> Ingrese la información en los campos para buscar:</h2>
             <div class="row">
-                <label for="">Nombre de la Universidad</label>
-                <input type="text" name="Nombre_Universidad" id="">
-                <label for="">Periodo de Licenciamiento</label>
-                <input type="text" name="Periodo_Licenciamiento" id="">
+                <label>Nombre de la Universidad:</label>
+                <input type="text" name="Nombre_Universidad">
+                <label>Periodo de Licenciamiento:</label>
+                <input type="text" name="Periodo_Licenciamiento">
+                <label>Departamento Local:</label>
+                <input type="text" name="Departamento_Local">
+                <label>Denominación del programa:</label>
+                <input type="text" name="Denominación_Programa">
             </div>
-
-            <div class="row">
-                <label for="">Departamento Local</label>
-                <input type="text" name="Departamento_Local" id="">
-                <label for="">Denominación del programa</label>
-                <input type="text" name="Denominación_Programa" id="">
-            </div>
-
             <button>REALIZAR CONSULTA</button>
         </form>
     </section>

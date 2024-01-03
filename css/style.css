@@ -10,10 +10,10 @@ h1, h2{
     margin: 0;
 }
 h1{
-    font-size: 25px;
+    font-size: 29px;
 }
 h2{
-    font-size: 21px;
+    font-size: 24px;
 }
 section{
     display: flex;
@@ -27,21 +27,24 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400PX;
-    width: 750PX;
+    height: 500PX;
+    width: 800PX;
     background-color: rgba(255, 146, 79, 0.94);
     border: solid 5px rgba(255, 55, 0, 0.8);
 }
 .row{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 80px;
+    justify-content: center;
+    height: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button {
     border-radius: 100px;
-    border: solid 4px rgb(226, 136, 0) ;
+    border: solid 3.5px rgb(226, 136, 0) ;
     font-size: 14px;
     width: 200px;
     height: 40px;
@@ -50,4 +53,14 @@ button {
 }
 button:hover {
     transform: scale(1.1); 
+}
+input{
+    margin-bottom: 14px;
+    width: 350px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+label{
+    font-size: 25px;
 }
