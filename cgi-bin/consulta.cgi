@@ -18,6 +18,37 @@ print <<HTML;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Resultado de la Consulta</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(../Images/background.jpg);
+            background-size: auto 100%;
+            background-position: center;
+            height: 100vh;
+        }
+        h1, h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 775px;
+        }
+        p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
     <section>
