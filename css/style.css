@@ -7,6 +7,13 @@ body{
 }
 h1, h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 21px;
 }
 section{
     display: flex;
@@ -22,11 +29,25 @@ form{
     justify-content: center;
     height: 400PX;
     width: 750PX;
-    background-color: #fff;
+    background-color: rgba(255, 146, 79, 0.94);
+    border: solid 5px rgba(255, 55, 0, 0.8);
 }
 .row{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
+}
+
+button {
+    border-radius: 100px;
+    border: solid 4px rgb(226, 136, 0) ;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(234, 255, 78);
+    transition: transform 0.3s ease; 
+}
+button:hover {
+    transform: scale(1.1); 
 }
