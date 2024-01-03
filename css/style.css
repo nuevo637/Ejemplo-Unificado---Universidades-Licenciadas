@@ -1,5 +1,12 @@
 body{
     margin: 0;
+    background-image: url(../Images/background.jpg);
+    background-size: auto 100%; 
+    background-position: center; 
+    height: 100vh; 
+}
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section{
     display: flex;
@@ -7,5 +14,19 @@ section{
     align-items: center;
     justify-content: center;
     height: 775px;
-    background-color: #b87d7d;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400PX;
+    width: 750PX;
+    background-color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }

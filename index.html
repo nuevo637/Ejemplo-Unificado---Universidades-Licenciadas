@@ -8,20 +8,23 @@
 </head>
 <body>
     <section>
-        <h1> BUSQUEDA DE UNIVERSIDADES LICENCIADAS</h1>
-        <h2> Ingrese la información en los campos para buscar:</h2>
-        <div>
-            <form action="cgi-bin/consulta.cgi">
+        <form action="cgi-bin/consulta.cgi">
+            <h1> BUSQUEDA DE UNIVERSIDADES LICENCIADAS</h1>
+            <h2> Ingrese la información en los campos para buscar:</h2>
+            <div class="row">
                 <label for="">Nombre de la Universidad</label>
                 <input type="text" name="Nombre_Universidad" id="">
                 <label for="">Periodo de Licenciamiento</label>
                 <input type="text" name="Periodo_Licenciamiento" id="">
+            </div>
+
+            <div class="row">
                 <label for="">Departamento Local</label>
                 <input type="text" name="Departamento_Local" id="">
                 <label for="">Denominación del programa</label>
                 <input type="text" name="Denominación_Programa" id="">
-            </form>
-        </div>
+            </div>
+        </form>
     </section>
 </body>
 </html>
