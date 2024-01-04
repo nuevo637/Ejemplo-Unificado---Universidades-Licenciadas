@@ -40,7 +40,7 @@ form{
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 320px;
+    height: 90px;
     width: 380px;
 }
 button {
@@ -55,6 +55,9 @@ button {
 button:hover {
     transform: scale(1.1); 
 }
+option{
+    width: 100000px;
+}
 input{
     margin-bottom: 14px;
     width: 350px;
@@ -64,4 +67,9 @@ input{
 }
 label{
     font-size: 25px;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    width: 350px;
 }
