@@ -55,9 +55,6 @@ button {
 button:hover {
     transform: scale(1.1); 
 }
-option{
-    width: 100000px;
-}
 input{
     margin-bottom: 14px;
     width: 350px;
